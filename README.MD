@@ -12,7 +12,7 @@ The website is a fan site dedicated to the anime *Attack on Titan* (Shingeki no 
 
 1. **Created an index.html File**: Developed a basic HTML structure with content about *Attack on Titan*, including a header mimicking the internship document's style, sections for plot, characters, and a table for seasons.
 
-2. **Pushed to a New GitHub Repo**: Initialized a local Git repository on my Windows 11 laptop, added the files (`index.html` and `style.css`), committed changes with meaningful messages, and pushed to a new public GitHub repository.
+2. **Pushed to a New GitHub Repo**: Initialized a local Git repository on my laptop, added the files (`index.html` and `style.css`), committed changes with meaningful messages, and pushed to a new public GitHub repository named "static-website".
 
 3. **Enabled GitHub Pages**: Navigated to the repo settings on GitHub, selected the "Pages" section, chose the "main" branch and root folder as the source, and saved the configuration.
 
@@ -20,16 +20,25 @@ The website is a fan site dedicated to the anime *Attack on Titan* (Shingeki no 
 
 5. **Accessed the Live Website**: After a short build time (1-2 minutes), accessed the site via the provided GitHub Pages URL and verified it loaded correctly.
 
-6. **Customized with CSS**: Added a `style.css` file for a light color scheme (e.g., white backgrounds, orange accents inspired by the task document), subtle background patterns evoking the anime's walls, and responsive design for mobile devices.
+6. **Customized with CSS**: Added a `style.css` file for a light color scheme (e.g., white backgrounds, blue accents inspired by the task document), subtle background patterns evoking the anime's walls, and responsive design for mobile devices.
 
 ## Files Included
 - `index.html`: The main HTML file containing the website structure and content.
 - `style.css`: Custom stylesheet for light-themed design and layout.
 - `README.md`: This file, explaining the task completion (as per submission guidelines).
-- Screenshots (if applicable): 
-  - `screenshot-local-preview.png`: Local browser preview of the site.
+- Screenshots 
   - `screenshot-github-pages-settings.png`: GitHub Pages configuration screen.
+  - `screenshot-github-pages-deployment.png`: Github Pages deployment of the site.
   - `screenshot-live-site.png`: The deployed website in action.
+
+## Screenshots
+
+### Github Pages Configuration
+![Screenshot1](screenshots/github-pages-settings.png)  
+![Screenshot2](screenshots/github-pages-deployment.png)
+
+### Live Website in action
+![Screenshot3](screenshots/live-site.png)
 
 ## Credits
 - Content inspired by *Attack on Titan* by Hajime Isayama (fan-made, non-commercial).
