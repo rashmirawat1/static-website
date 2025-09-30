@@ -1,29 +1,12 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #1a1a1a; /* Dark gray-black for grim atmosphere */
-    color: #e0e0e0; /* Light gray text */
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text for contrast */
     margin: 0;
     padding: 0;
     line-height: 1.6;
-}
-
-header {
-    background-color: #2d5016; /* Survey Corps green */
-    padding: 20px;
-    text-align: center;
-    border-bottom: 3px solid #4a7c59;
-}
-
-header h1 {
-    margin: 0;
-    color: #fff;
-    font-size: 2.5em;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-}
-
-header p {
-    margin: 5px 0 0;
-    font-style: italic;
+    background-image: linear-gradient(to bottom, #e0e0e0, #ffffff), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect x="0" y="0" width="100" height="100" fill="%23d3d3d3" opacity="0.1"/></svg>');
+    background-size: 50px 50px;
 }
 
 main {
@@ -35,14 +18,14 @@ main {
 section {
     margin-bottom: 40px;
     padding: 20px;
-    background-color: #2a2a2a;
+    background-color: #ffffff; /* White sections */
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 h2 {
-    color: #4a7c59; /* Green accent */
-    border-bottom: 2px solid #4a7c59;
+    color: #8ecdf9; /* Orange accent from header */
+    border-bottom: 2px solid #8ecdf9;
     padding-bottom: 5px;
 }
 
@@ -54,8 +37,8 @@ ul {
 ul li {
     margin: 10px 0;
     padding: 10px;
-    background-color: #3a3a3a;
-    border-left: 4px solid #4a7c59;
+    background-color: #f0f0f0; /* Light gray for list items */
+    border-left: 4px solid #8ecdf9;
 }
 
 table {
@@ -67,28 +50,19 @@ table {
 th, td {
     padding: 12px;
     text-align: left;
-    border-bottom: 1px solid #4a7c59;
+    border-bottom: 1px solid #ddd;
 }
 
 th {
-    background-color: #2d5016;
+    background-color: #8ecdf9;
     color: #fff;
 }
 
 tr:nth-child(even) {
-    background-color: #3a3a3a;
+    background-color: #f9f9f9;
 }
 
-footer {
-    background-color: #1a1a1a;
-    text-align: center;
-    padding: 10px;
-    border-top: 2px solid #4a7c59;
-    font-size: 0.9em;
-}
-
-/* Responsive for smaller screens */
 @media (max-width: 600px) {
-    header h1 { font-size: 2em; }
+    h2 { font-size: 1.5em; }
     table { font-size: 0.9em; }
 }
