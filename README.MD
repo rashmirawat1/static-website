@@ -34,7 +34,9 @@ The website is a fan site dedicated to the anime *Attack on Titan* (Shingeki no 
 ## Screenshots
 
 ### Github Pages Configuration
-![Screenshot1](screenshots/github-pages-settings.png)  
+![Screenshot1](screenshots/github-pages-settings.png) 
+
+### Github Pages Deployment
 ![Screenshot2](screenshots/github-pages-deployment.png)
 
 ### Live Website in action
